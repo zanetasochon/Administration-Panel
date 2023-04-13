@@ -1,14 +1,11 @@
-import { Typography } from "@mui/material";
 import { Layout } from "@/components/Layout/Layout";
+import Clients from "@/components/Clients/Clients";
 
-export default function Clients() {
+export default function ResponsiveDrawer() {
 
   return (
     <Layout>
-      <Typography paragraph>Clients</Typography>
-      <Typography paragraph>
-       Clients Page
-      </Typography>
+          <Clients />
     </Layout>
   );
 }

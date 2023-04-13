@@ -1,11 +1,11 @@
 import { Layout } from "@/components/Layout/Layout";
-import { HomePage } from "@/components/HomePage/HomePage";
+import AdministrationPanel  from "@/components/AdministrationPanel/AdministrationPanel";
 
 export default function ResponsiveDrawer() {
 
   return (
     <Layout>
-          <HomePage />
+          <AdministrationPanel />
     </Layout>
   );
 }
